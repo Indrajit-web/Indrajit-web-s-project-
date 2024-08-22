@@ -838,7 +838,7 @@ audio{
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    top: 24px;
+    top: 35px;
     left: 50%;
     transform: translate(-50%,18%);
 }
