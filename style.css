@@ -1,0 +1,1127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+}
+body{
+    background-color: rgb(22, 22, 22);
+    /* background-color: rgb(98, 97, 97); */
+}
+
+
+
+
+.bar4{
+    
+   background-color: rgb(255, 109, 216);
+   width: 37px;
+    height: 37px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+  font-size: 170%;
+  font-weight: bold; 
+}
+
+footer{
+    position: fixed;
+    height:103px ;
+    width: 100%;
+    z-index: 11;
+    bottom: 0%;
+    display: flex;
+    color: rgb(208, 208, 208);
+    background-image: linear-gradient(rgb(0, 0, 0,0.1),rgb(0, 0, 0.9)70%);
+    font-size: 140%;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.bars{
+    height: 60%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    align-items: center;
+    padding-top: 4px;
+ }
+
+ .bname{
+    color: rgb(227, 227, 227);
+    font-size: 70%;
+ }
+ .selctedBar{
+    color: white;
+ }
+
+
+.bard{
+   color: aliceblue;
+}
+
+header{
+    width: 100%;
+    height: 5vh;
+    
+}
+.subHeader{
+    width: 100%;
+    height: 6vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    column-gap: 4%;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(22, 22, 22);
+}
+
+.b2{
+    background-color: rgb(63, 249, 63);
+    width: 50px;
+    height:33px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 110%;
+    border-radius: 18px;
+}
+.manuBox{
+    width: 94%;
+    height: 35vh;
+   display: flex;
+   justify-content: space-between;
+    border-radius: 3px;
+   transform: translate(3%,5%);
+}
+.mBox{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.manuBoxes{
+    width: 100%;
+    height: 22.8%;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    align-items: center;
+    column-gap: 5%;
+    font-size: 97%;
+}
+.manuBOX1{
+    align-items: center;
+    column-gap: 5%;
+}
+
+
+.image{
+    width: 38%;
+    height: 100%;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.image1{
+    background-image: url(wp5510430.jpg);
+    background-size: cover;
+}
+.image5{
+    background-image: url(enhanced-30668-1489178235-8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+   
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.image2{
+    background-image: url(Justin-Bieber-GettyImages-1230371382.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image3{
+    background-image: url(avatars-GBhEb4pyHIRKyPfO-9aDwAw-t1080x1080.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.image7{
+    background-image: url(vicky-kaushal-talks-about-learning-the-steps-of-viral-song--tauba-tauba-154148380-1x1.jpg);
+    background-size: cover;
+
+}
+.image6{
+    background-image: url(1615540466_pjimage-10.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.image4{
+    background-image: url(stree-2-box-office-collection-day-1-2024-08-6e4665dde2a250b7f811590faef76b8e.jpg);
+    background-size: cover;
+}
+
+.image8{
+    background-image: url(360_F_116893829_UmvQiyaTREE0P1ijV6bkLLLxwD3rI0jd.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.artistbox{
+    width: 100%;
+    height: 191px;
+   
+    margin-top: 13%;
+    color: white;
+    
+}
+.artNams{
+    padding-left: 2%;
+    font-size: 130%;
+    font-weight: 700;
+}
+.artPart{
+    width: 100%;
+    height: 87.5%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+
+}
+.art{
+    width: 140px;
+    height: 155px;
+  
+    padding-left: 3%;
+    padding-top: 3%;
+    display: inline-block;
+    
+}
+.artImg{
+    width: 127px;
+    height: 127px;
+    
+    border-radius: 50%;
+}
+.artImg1{
+    background-image: url(1692339492_arijit-singh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.artImg2{
+  background-image: url(desktop-wallpaper-armaan-malik-i-take-pride-in-being-a-pan-india-singer-armaan.jpg);
+  background-size: cover;
+}
+.artImg3{
+  background-image: url(Shawn_Cover_DSP-credit-Anthony-Wilson-1-696x442.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: top;  
+}.artImg4{
+   background-image: url(darshan16422-scaled.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+.artImg5{
+  background-image: url(9713_01_0270.jpg);
+  background-size: cover;  
+  background-position: center;
+ 
+}
+.artImg6{
+    background-image: url(d39b3e18e13eb18fa75f8681767ab5a6.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.artName{
+    font-size: 90%;
+    text-align: center;
+}
+.recoBox{
+    width: 100%;
+    height: 240px;
+    color: white;
+    margin-top: 6%;
+}
+
+
+.recoText{
+    padding-left: 2%;
+    font-size: 130%;
+    font-weight: 700;
+
+}
+.recoBoxList{
+    width: 100%;
+    height: 85%;
+   
+    margin-top: 15PX;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.recos{
+    height: 100%;
+    width: 153PX;
+    font-size: 90%;
+    
+    display: inline-block;
+    padding-left: 3%;
+}
+.recoImg{
+    width: 140PX;
+    height: 140PX;
+    margin-bottom: 5px;
+    
+}
+.recoImg1{
+    background-image: url(Soni-Soni-From-Ishq-Vishk-Rebound-Hindi-2024-20240619164934-500x500.jpg);
+    background-size: cover;
+}
+.recoImg2{
+  background-image: url(Satranga-From-ANIMAL-Hindi-2023-20231027131032-500x500.jpg);
+  background-size: cover;
+}
+.recoImg3{
+    background-image: url(Raataan-Lambiyan-From-Shershaah--Hindi-2021-20210729181107-500x500.jpg);
+    background-size: cover;
+}
+.recoImg4{
+    background-image: url(artworks-000551838054-af70cv-t500x500.jpg);
+    background-size: cover;
+}
+.recoImg5{
+    background-image: url(620x450_20-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recoImg6{
+    background-image: url(MV5BMjNhYzc0YmItOGZjOS00NWJlLWE3ZTEtNGI3MzAxNGYwZWExXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg);
+    background-size: cover;
+}
+.recoImgText{
+   color: white;
+   width: 140px;
+   
+   overflow: hidden;
+   /* text-align: center; */
+}
+.rct{
+    text-align: center;
+}
+ 
+/* ............ */
+
+
+.discoBox{
+    width: 100%;
+    height: 240px;
+    color: white;
+    
+}
+
+
+.discoText{
+    padding-left: 2%;
+    font-size: 130%;
+    font-weight: 700;
+
+}
+.discoBoxList{
+    width: 100%;
+    height: 85%;
+   
+    margin-top: 15PX;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.discos{
+    height: 100%;
+    width: 153PX;
+    font-size: 90%;
+    
+    display: inline-block;
+    padding-left: 3%;
+}
+.discoImg{
+    width: 140PX;
+    height: 140PX;
+    margin-bottom: 5px;
+    
+}
+.discoImg1{
+    background-image: url(Stereo-Love-English-2010-20190924081753-500x500.jpg);
+    background-size: cover;
+}
+.discoImg2{
+  background-image: url(O-Maahi-From-Dunki-Hindi-2023-20231211171007-500x500.jpg);
+  background-size: cover;
+}
+.discoImg3{
+    background-image: url(Azhar-1-Hindi-2016-500x500.jpg);
+    background-size: cover;
+}
+.discoImg4{
+    background-image: url(Yimmy-Yimmy-Tayc-500-500.jpg);
+    background-size: cover;
+}
+.discoImg5{
+    background-image: url(artworks-000558014043-knhq4j-t500x500.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.discoImg6{
+    background-image: url(Heartless-2014-500x500.jpg);
+    background-size: cover;
+}
+.discoImgText{
+   color: white;
+   width: 140px;
+   overflow: hidden;
+  
+}
+.ath{
+    width: 100%;
+    height: 210px;
+    /* background-color: rgb(84, 48, 13); */
+}
+
+.try{
+    margin-left: 8.5%;
+    width: 84%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+   
+}
+.darsanBox{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 17px;
+   
+}
+
+.darsanBox:active{
+    width: 98.6%;
+    height: 98.6%;
+    
+}
+.DarsanHeadPart{
+   height: 18%;
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+   padding-left: 4%;
+   position: relative;
+   
+}
+.DarsanImg{
+    width: 20%;
+    height: 82%;
+    background-image: url(darshan_raval.jpg);
+    background-size: cover;
+    border-radius: 6px;
+}
+.DarsanName{
+    height:82% ;
+    width: 80%;
+  color: white;
+  
+  padding-left: 2%;
+}
+
+
+.thisisDarsan{
+    font-weight: 600;
+}
+.aboutPlaylist{
+    font-size: smaller;
+    color: rgb(211, 211, 211);
+}
+.dot{
+    font-size: large;
+}
+.DarsanVideo{
+    position: relative;
+    height: 100%;
+    bottom: 73px; 
+    width: 100%;  
+   object-fit: cover;
+   border-radius: 17px;
+
+}
+
+.DarsanBlorPart:active{
+    bottom: 471px;
+   
+}
+.DarsanFooter{
+     width: 100%;
+     height: 14%;
+    
+     position: relative;
+     display: flex;
+     bottom: 134px;
+     border-bottom-left-radius: 17px;
+     border-bottom-right-radius: 17px;
+     
+}
+.DarsanPlaylistClick{
+    width: 35%;
+    height: 100%;
+    padding-left: 3.6%;
+   
+}
+.DarsanPlaylistClick1{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+.DarsanPlaylistClick2{
+     position: relative;
+    bottom: 26.3px;
+    /* color: white; */
+    font-size: 80%;
+    width: 100%;
+    height: 45%;
+    border-radius: 30px;
+    animation-name: blink;
+    
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes blink{
+    0%{
+        color: white;
+    }
+    25%{
+    
+        color: white;
+    }
+    
+    100%{
+        color: rgb(181, 181, 181);
+    }
+}
+
+.dots{
+ 
+  height: 100%;
+  width: 53%;
+  
+  padding-top: 0.6%;
+  display: flex;
+  justify-content: end;
+}
+.mdiv{
+    width:20px ;
+    height: 20px;
+   
+    color: white;
+    
+  transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2px;
+    font-size: 130%;
+    
+}
+.DarsanI{
+    width: 12%;
+    height: 100%;
+   
+    padding-right: 3.6%;
+    display: flex;
+    justify-content: end;
+}
+.DarsanPlayIcon{
+   
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    font-size: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding-left: 2px;
+}
+.SongDitels{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+    overflow: auto;
+    scrollbar-width: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    visibility: hidden;
+    
+}
+.about{
+    width: 100%;
+    height: 260px;
+    
+  
+}
+
+
+.seimg{
+    width: 150px;
+    height: 150px;
+    /* background-color: yellow; */
+    position: relative;
+    left: 30%;
+    top: 17%;
+    
+}
+.iname{
+   position: relative;
+   top: 26%;
+   left: 5%; 
+   color: white;
+}
+.allSongs{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.ExtraSpaceCutting{
+   background-color: rgb(29, 29, 30);
+    position: absolute;
+    display: none;
+    bottom: 0%;
+}
+.ExtraSpaceJustin{
+ width: 100%;
+ height: 360px;
+ display: block;
+}
+/* .SongDitelsJustin{
+    overflow: hidden;
+} */
+
+.songs{
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    padding-left: 10px;
+}
+.mainSongImg{
+    width: 14%;
+    height: 100%;
+    
+    
+}
+.songs:active{
+   padding-left: 12px;
+}
+.msiAbout{
+    width: 80%;
+    height: 100%;
+  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9px;
+    row-gap: 5px;
+}
+.aboutSname{
+       font-size: 70%;
+       color: rgb(203, 202, 202);
+}
+
+.seimg2{
+    background-image: url(wp5510430.jpg);
+    background-size: cover;
+}
+.seimgEnglish{
+    background-image: url(enhanced-30668-1489178235-8.jpg);
+    background-size: cover;
+   /* background-color: rgb(8, 65, 78); */
+}
+
+.about2{
+    
+    background-image: linear-gradient(rgb(73, 166, 225),rgb(8, 23, 112),rgb(29, 29, 30));
+}
+.about3{
+    background-image: linear-gradient(rgb(146, 209, 248),rgb(10, 45, 82),rgb(29, 29, 30));
+}
+
+.SongDitels3{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.1s;
+     
+    background-color: rgb(29, 29, 30);
+}
+/* .SongDitels2{
+    transition: opacity 2s;
+} */
+.backIcon{
+    width: 23px;
+    position: relative;
+    /* background-color: red; */
+    top: 10%;
+    left: 5%;
+    font-size: 140%;
+    color: white;
+}
+.backIcon:active{
+    color: rgb(182, 180, 180);
+    
+}
+.manuBoxes:active{
+    color: rgb(182, 180, 180);
+}
+
+.mainSongImgHindi{
+    background-image: url(.trashed-1725270053-wp5510430.jpg);
+    background-size: cover;
+}
+
+.uimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* display: none; */
+}
+.uimg[src=""]{
+    display: none;
+}
+
+.extra{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.songPlayer{
+    width: 98.5%;
+    height: 60px;
+    position: fixed;
+    bottom: 106px;
+    z-index: 11;
+    left: 0.9%;
+    border-radius: 8px;
+    
+    visibility: hidden;
+    opacity: 0;
+    
+    /* background-color: rgb(134, 16, 16); */
+}
+audio{
+    height: 100%;
+    position: relative;
+    left: 10%;
+}
+
+.progress{
+  width: 96%;
+  height: 3px;
+  position: relative;
+  top: 75%;
+  left:2% ;
+  /* background-color: rgb(103, 29, 29); */
+}
+.songPlayerImg{
+    width: 45px;
+    height: 45px;
+    left: 7px;
+    
+    position: absolute;
+    top: 7px;
+}
+.mainMrqueeBox{
+    width: 137px;
+    position: absolute;
+    /* background-color: rgb(6, 17, 35); */
+    top: 11px;
+    left: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.songPlayerSongName{
+    color: white;
+    padding-left: 26px;
+}
+
+.songPlayerSongName.overflow{
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);;
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.songPlayerSongArtist{
+    width: 200px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 33px;
+    left: 60px;
+    color: rgb(224, 224, 224);
+    font-size: 80%;
+}
+.audio{
+    position: absolute;
+}
+.songPlayerImgU{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.songPlayerImgU[src=""]{
+    display: none;
+}
+
+
+.sPlayerD{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+/* afterClick */
+.songPlayerAfterClick{
+    width: 100%;
+    height: 100vh;
+    bottom: 0%;
+    left: 0%;
+    
+    border-radius: 0px;
+    z-index: 20;
+}
+.songPlayerImgAfterClick{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,18%);
+}
+.songPlayerImgUC{
+    border-radius: 10px;
+}
+.afterClickProgress{
+    bottom: 4px;
+}
+ .mainMrqueeBoxAfter{
+    top: 65%;
+    left:10% ;
+    transform: translate(0%,20%);
+    width: 246px;
+    font-size: 120%;
+ }
+ .songPlayerArtistNameAfter{
+    top: 69%;
+    left:10%;
+    font-size: 100%;
+    width: 90%;
+    transform: translate(0%,20%);
+ }
+
+ .songPlayerClickAnimation{
+      animation-name: l;
+      animation-duration: 0.1s;
+      }
+
+      @keyframes l{
+        0%{
+            bottom: -90%;
+            opacity: 0.5;
+        }
+        25%{
+            opacity: 0.6;
+            bottom: -60%;
+        }
+        50%{
+            opacity: 0.9;
+            bottom: -40%;
+        }
+        75%{
+            opacity: 1;
+            bottom: -20%;
+        }
+        100%{
+            opacity: 1;
+            bottom: 0%;
+        }
+      }
+      
+      .afterClickIcon{
+        display: none;
+      }
+
+    .afterClickIconAdd{
+        display: block;
+        position: absolute;
+        top: 8%;
+        left: 4%;
+        font-size: 160%;
+        color: white;
+      }
+
+      .songControls{
+        height: 20px;
+        width: 20px;
+        left: 90%;
+        bottom: 28%;
+        /* background-color: rgb(94, 123, 14); */
+        border-radius: 50%;
+        position: absolute;
+        
+        
+        }
+      .songControlAfterClick{
+         display: flex;
+        width: 55%;
+        height: 10%;
+        left: 50%;
+        bottom: 10%;   
+        transform: translate(-50%,0%);
+        
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+     .songplayerClickPart{
+        height: 88%;
+        width: 87%;
+        position: absolute;
+        top: 0%;
+        
+     }
+     .songplayerClickPartBack{
+        top: 50%;
+        height: 10%;
+     }
+     .songPlayCon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+       border-radius: 50%;
+        width: 20px;
+        height: 20px;
+     }
+     .pushi{
+       font-weight: bold;
+       font-size: 140%;
+      
+     }
+     .playi{
+         display: none;
+         margin-left: 3px;
+     }
+     .playpusDisplaNone{
+        display: none;
+    }
+
+    .playpusDisplaBlock{
+        display: block;
+    }
+    .songBack{
+        display: none;
+    }
+   .songNext{
+    display: none;
+    }
+    
+    .songBackBlock{
+        display: block;
+        color: white;
+        font-size: 200%;
+    }
+    .songNextBlock{
+        display: block;
+        color: white;
+        font-size: 200%;
+        }
+        .songBackBlock:active{
+            color: rgb(163, 163, 163);   
+        }
+        .songNextBlock:active{
+            color: rgb(163, 163, 163);
+        }
+    .songplayIconAfterRound{
+        /* border: 2px solid rgb(212, 204, 204); */
+        background-color: white;
+        color: black;
+        font-size: 135%;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .timer{
+        display: none;
+    }
+
+   .timerAfterBlock{
+        display: block;
+        width: 95.9%;
+        height: 20px;
+        
+        position: absolute;
+        left: 2%;
+        display: flex;
+        color: rgb(196, 196, 196);
+        justify-content: space-between;
+        bottom: 19%;
+       /* transform: translate(0%,90%); */
+    }
+     @media (min-height:840px){
+        .songPlayerImgAfterClick {
+            
+            
+            top: 111px;
+            
+        }
+    }
+
+    .about4{
+        background-image: linear-gradient(rgb(79, 185, 114), rgb(38, 114, 53), rgb(29, 29, 30));;
+    }
+    .seimgJustin{
+        background-image: url(Justin-Bieber-GettyImages-1230371382.jpg);
+        background-size: cover;
+        background-position: center;
+        /* background-color: rgb(108, 94, 102); */
+    }
+   .seimgArijit{
+    background-image: url(1692339492_arijit-singh.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+     .about5{
+        background-image:  linear-gradient(rgb(0, 0, 0), rgba(185, 77, 56, 0.997), rgb(29, 29, 30));;
+     }
+     .seimgPunjabi{
+        background-image: url(avatars-GBhEb4pyHIRKyPfO-9aDwAw-t1080x1080.jpg);
+        background-size: cover;
+     }
+     .about6{
+        background-image:  linear-gradient(rgb(86, 121, 108), rgba(3, 49, 34, 0.997), rgb(29, 29, 30));;
+     }
+
+     .seimgNewRe{
+        background-image: url(vicky-kaushal-talks-about-learning-the-steps-of-viral-song--tauba-tauba-154148380-1x1.jpg);
+        background-size: cover;
+     }
+     
+     .about7{
+        background-image:  linear-gradient(rgb(85, 126, 152), rgba(5, 39, 50, 0.997), rgb(29, 29, 30));;
+     }
+      
+     .seimgNewRe2{
+        background-image:url(stree-2-box-office-collection-day-1-2024-08-6e4665dde2a250b7f811590faef76b8e.jpg) ;
+        background-size: cover;
+     }
+
+     .about8{
+        background-image:  linear-gradient(rgb(85, 126, 152), rgba(5, 39, 50, 0.997), rgb(29, 29, 30));;
+     }
+     .seimgParty{
+        background-image: url(360_F_116893829_UmvQiyaTREE0P1ijV6bkLLLxwD3rI0jd.jpg);
+        background-size: cover;
+     }
+     .about9{
+        background-image:  linear-gradient(rgb(241, 153, 153), rgba(3, 72, 106, 0.997), rgb(29, 29, 30));;
+     }
+     .ExtraSpaceParti{
+        width: 100%;
+      height: 487px;
+       display: block;
+     }
+     .art:active{
+        color: rgb(158, 158, 158);
+     }
+     .art{
+        border-radius: 50%;
+     }
+     .seimgArman{
+        background-image: url(desktop-wallpaper-armaan-malik-i-take-pride-in-being-a-pan-india-singer-armaan.jpg);
+        background-size: cover;
+       
+     }
+     .seimgArman{
+        background-image: url(desktop-wallpaper-armaan-malik-i-take-pride-in-being-a-pan-india-singer-armaan.jpg);
+        background-size: cover;
+       
+     }
+
+     .seimgShwan{
+        background-image:url(Shawn_Cover_DSP-credit-Anthony-Wilson-1-696x442.jpg);
+        background-size: cover;
+       background-position:  center;
+     }
+
+     .about11{
+        background-image:  linear-gradient(rgb(217, 217, 217), rgba(119, 119, 119, 0.997), rgb(29, 29, 30));;
+     }
+
+     .about10{
+        background-image:  linear-gradient(rgb(255, 58, 58), rgba(84, 33, 33, 0.997), rgb(29, 29, 30));;
+     }
+
+     .seimgDarshan{
+        background-image:url(darshan16422-scaled.jpg);
+        background-size: cover;
+       background-position:  center;
+     }
+     .about12{
+        background-image:  linear-gradient(rgb(0, 0, 0), rgba(18, 18, 18, 0.997), rgb(29, 29, 30));;
+     }
+
+
+     .about14{
+        background-image:  linear-gradient(rgb(0, 0, 0), rgba(18, 18, 18, 0.997), rgb(29, 29, 30));;
+     }
+     .seimgCharli{
+        background-image:url(d39b3e18e13eb18fa75f8681767ab5a6.jpg);
+        background-size: cover;
+       /* background-position:  center; */
+     }
